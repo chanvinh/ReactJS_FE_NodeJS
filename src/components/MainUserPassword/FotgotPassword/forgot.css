@@ -1,0 +1,84 @@
+.forgotcontainer {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  left: 0;
+}
+
+.forgotcontainer h2{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.forgotcontainer form{
+  position: relative;
+}
+
+.forgotcontainer form div input{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000 !important;
+  border: none;
+  outline: none;
+  padding-right: 45px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.forgotcontainer form .submitType{
+  background-color: transparent;
+  outline: none;
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.resetcontainer {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  left: 0;
+}
+
+
+.resetcontainer h2{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.resetcontainer form{
+  position: relative;
+}
+
+.resetcontainer form div input{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000 !important;
+  border: none;
+  outline: none;
+  padding-right: 45px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.resetcontainer form div {
+  margin: 10px 0px;
+}
+
+.resetcontainer form .update{
+  display: flex;
+  margin: auto;
+}
