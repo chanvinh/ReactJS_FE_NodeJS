@@ -17,16 +17,14 @@ const options = {
 };
 
 ReactDOM.render(
-  <HashRouter >
-    <Provider store={store}>
-      <AlertProvider template={AlertTemplate} {...options}>
-        <BrowserRouter>
-          <App />
-        </BrowserRouter>
-      </AlertProvider>
-    </Provider>
-  </HashRouter>,
-  
+  <Provider store={store}>
+    <AlertProvider template={AlertTemplate} {...options}>
+      <HashRouter>
+        <App />
+      </HashRouter>
+    </AlertProvider>
+  </Provider>,
+
   document.getElementById('root')
 );
 

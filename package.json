@@ -2,7 +2,7 @@
   "name": "sb-code",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chanvinh.github.io/pharmacity",
+  "homepage": "https://chanvinh.github.io/ReactJS_FE_NodeJS/",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
@@ -15,6 +15,7 @@
     "axios": "^0.26.1",
     "chart.js": "^3.5.1",
     "country-state-city": "^3.0.1",
+    "gh-pages": "^6.1.1",
     "history": "^5.3.0",
     "react": "^17.0.2",
     "react-alert": "^7.0.3",
@@ -41,8 +42,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
